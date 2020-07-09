@@ -28,7 +28,7 @@ def get_temperature():
             temp_min[-1] = temperature
         if not temp_max[-1] or temperature > temp_max[-1]:
             temp_max[-1] = temperature
-        return(days, temp_min, temp_max)
+    return(days, temp_min, temp_max)
     
 
 if __name__ == '__main__':
