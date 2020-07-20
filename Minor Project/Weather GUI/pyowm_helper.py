@@ -3,10 +3,10 @@ import pyowm
 from datetime import datetime
 from timezone_conversion import gmt_to_eastern
 
-API_KEY = os.environ['API_KEY']
+#API_KEY = os.environ['API_KEY']
 
-owm = pyowm.OWM(API_KEY)
-mgr = owm.weather_manager()
+owm=pyowm.OWM('0833f103dc7c2924da06db624f74565c')
+mgr=owm.weather_manager()
 
 def get_temperature():
     days = []
